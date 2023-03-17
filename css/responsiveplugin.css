@@ -1,0 +1,50 @@
+/* Media Query */
+
+@media only screen and (min-width: 811px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .logo img{
+    height: 10vh;
+   }
+   .logo h3{
+    font-size: 3rem;
+   }
+
+   .cta{
+    font-size: 3rem;
+   }
+
+   .plugin-box img{
+    width: 100%;
+}
+
+.introp img{
+    width: 8vh;
+}
+
+.introp h3{
+    
+    color: white;
+    font-size: 5rem;
+}
+
+.desc{
+    width: 70%;
+    text-align: center;
+}
+
+audio{
+    width: 30vw;
+}
+
+.prim{
+    align-self: center;
+    max-width: 550px;
+}
+
+}
+
